@@ -1,0 +1,38 @@
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+}
+
+.navigation__link {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.navigation__link_favourites-movies {
+  font-weight: 400;
+}
+
+.navigation__link_account {
+  margin: 0 0 0 32px;
+  padding: 8px 20px;
+  line-height: 16px;
+  background: #f9f9f9;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+}

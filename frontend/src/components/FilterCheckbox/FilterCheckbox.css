@@ -1,0 +1,56 @@
+.filtercheckbox {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.filtercheckbox__input {
+  position: relative;
+  width: 34px;
+  height: 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  background: #ebebeb;
+  outline: none;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.filtercheckbox__input:checked {
+  background: #2be080;
+}
+
+.filtercheckbox__input:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  top: 2px;
+  left: 1px;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.filtercheckbox__input:checked:before {
+  left: 23px;
+}
+
+.filtercheckbox__text {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .filtercheckbox__text {
+    font-size: 11px;
+  }
+}

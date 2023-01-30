@@ -1,0 +1,110 @@
+.popup-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background: rgba(0 0 0 / 33%);
+  opacity: 0;
+  transition: 0.35s linear;
+  visibility: hidden;
+}
+
+.popup-menu_opened {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup-menu__container {
+  position: relative;
+  margin: 0;
+  padding: 23px 23px 110px;
+  width: 67%;
+  min-width: 320px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.popup-menu__close {
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../images/popup-menu-close.svg);
+  background-color: unset;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  align-self: flex-end;
+}
+
+.popup-menu__navigation {
+  margin: 109px 0 0;
+  padding: 0;
+  height: calc(100% - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup-menu__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+  list-style: none;
+}
+
+.popup-menu__link {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  height: 28px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.popup-menu__link_active,
+.popup-menu__link_active:active {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #000000;
+}
+
+.popup-menu__link_account {
+  margin: 0;
+  padding: 8px 20px;
+  width: 100px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 16px;
+  background: #f9f9f9;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 320px) {
+  .popup-menu__container {
+    padding: 15px 15px 46px;
+  }
+
+  .popup-menu__navigation {
+    margin: 100px 0 0;
+    padding: 0;
+    height: calc(100% - 46px);
+  }
+}

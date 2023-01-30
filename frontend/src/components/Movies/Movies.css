@@ -1,0 +1,31 @@
+.more-movies {
+  margin: 50px 0 80px;
+  text-align: center;
+}
+
+.more-movies-button {
+  width: 320px;
+  height: 36px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.movies__input-error {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  display: block;
+  text-align: center;
+  color: #ee3465;
+}

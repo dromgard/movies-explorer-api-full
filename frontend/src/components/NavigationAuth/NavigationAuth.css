@@ -1,0 +1,36 @@
+.navigation-auth__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.navigation-auth__link {
+  margin: 0;
+  padding: 8px 20px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.navigation-auth__link_login {
+  color: #000000;
+  background: #2be080;
+}
+
+@media screen and (max-width: 320px) {
+  .navigation-auth__list {
+    gap: 2px;
+  }
+
+  .navigation-auth__link {
+    padding: 5px 12px;
+    font-size: 10px;
+  }
+}

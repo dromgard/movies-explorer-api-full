@@ -1,0 +1,129 @@
+.profile {
+  margin: 0 auto;
+  padding: 74px 0 70px;
+  max-width: 410px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-form {
+  margin: 123px 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-form__container {
+  padding: 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-form__container:first-of-type {
+  padding: 0 0 4px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.profile-form__label {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.profile-form__input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-form__input {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  color: #000000;
+}
+
+.profile-form__info-message {
+  margin: 177px 0 20px;
+  padding: 0;
+  height: 14px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  color: #ff004c;
+}
+
+.profile-form__info-message_positive {
+  color: #007700;
+}
+
+.profile-form__submit {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  background: none;
+}
+
+.profile-form__submit_inactive {
+  color: #ebebeb;
+  opacity: 0.7;
+}
+
+.profile-form__submit_exit {
+  margin-top: 16px;
+  color: #ff004d;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    padding: 236px 0 70px;
+  }
+
+  .profile-form {
+    margin: 96px 0 0;
+  }
+
+  .profile-form__input-error {
+    margin: 180px 0 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .profile {
+    padding: 70px 30px 40px;
+    max-width: 260px;
+  }
+
+  .profile-form {
+    margin: 80px 0 0;
+  }
+
+  .profile-form__submit {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .profile-form__input-error {
+    margin: 346px 0 20px;
+  }
+}

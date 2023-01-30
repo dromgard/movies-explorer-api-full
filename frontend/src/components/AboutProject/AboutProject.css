@@ -1,0 +1,127 @@
+.about-project {
+  margin: 0;
+  padding: 110px 70px 101px;
+}
+
+.about-project__info {
+  margin: 0;
+  padding: 70px 0 110px;
+  display: grid;
+  column-gap: 40px;
+  row-gap: 26px;
+  grid-template-columns: repeat(2, 1fr);
+  box-sizing: border-box;
+}
+
+.about-project__subtitle {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+
+.about-project__plan {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: repeat(2, 36px);
+  row-gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.about-project__plan-subtitle {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.about-project__plan-subtitle_done {
+  background-color: #2be080;
+}
+
+.about-project__plan-text {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #a0a0a0;
+}
+
+@media screen and (max-width: 768px) {
+  .about-project {
+    padding: 90px 50px 82px;
+  }
+
+  .about-project__info {
+    padding: 70px 0 93px;
+    column-gap: 30px;
+    row-gap: 22px;
+  }
+
+  .about-project__plan {
+    grid-template-columns: 21% 1fr;
+  }
+
+  .about-project__plan-text {
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about-project {
+    padding: 70px 18px;
+  }
+
+  .about-project__info {
+    padding: 60px 0;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 16px;
+  }
+
+  .about-project__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about-project__subtitle:nth-child(2) {
+    margin-top: 40px;
+    grid-row: 3/4;
+  }
+
+  .about-project__plan {
+    grid-template-columns: 35% 1fr;
+    grid-template-rows: repeat(2, 35px);
+    row-gap: 0;
+  }
+
+  .about-project__plan-subtitle {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .about-project__plan-text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
