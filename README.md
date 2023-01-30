@@ -8,7 +8,7 @@ Backend реализован на ExpressJS, MongoDB + Mongoose. Реализо�
 
 ### Технологии:
 
-<img src="https://img.shields.io/badge/ReactJS-blue?logo=React&logoColor=white" alt="ReactJS"/> <img src="https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white" alt="CSS3"/> <img src="https://img.shields.io/badge/HTML5-blue?logo=html5&logoColor=white" alt="HTML5"/>
+<img src="https://img.shields.io/badge/ReactJS-blue?logo=React&logoColor=white" alt="ReactJS" title="ReactJS"/> <img src="https://img.shields.io/badge/ExpressJS-blue?logo=express&logoColor=white" alt="ExpressJS" title="ExpressJS"/> <img src="https://img.shields.io/badge/MongoDB-blue?logo=MongoDB&logoColor=white" alt="MongoDB" title="MongoDB"/> <img src="https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white" alt="CSS3" title="CSS3"/> <img src="https://img.shields.io/badge/HTML5-blue?logo=html5&logoColor=white" alt="HTML5" title="HTML5"/>
 
 - Обращение к API реализовано через fetch запросы.
 - Для хранения токена и поисковых запросов используется localStorage.
@@ -28,9 +28,9 @@ IP: 62.84.117.255
 
 [Frontend - https://serhio-diploma.nomoredomains.rocks/](https://serhio-diploma.nomoredomains.rocks/)
 
-[Backend - api.diploma-serhio.nomoredomains.club](api.diploma-serhio.nomoredomains.club)
+[Backend - https://api.diploma-serhio.nomoredomains.club](https://api.diploma-serhio.nomoredomains.club)
 
-## Запуск проекта
+### Запуск проекта
 
 Требования:
 
@@ -38,11 +38,11 @@ IP: 62.84.117.255
 - npm >= 6.14;
 
 Frontend:
-`npm start` — запускает проект в режиме разработчика.
 
-`npm run build` — собирает проект для продакшена в папочку `build`.
+- `npm start` — запускает проект в режиме разработчика.
+- `npm run build` — собирает проект для продакшена в папочку `build`.
 
 Backend:
-`npm run start` — запускает сервер в режиме production.
 
-`npm run dev` — запускает сервер с hot-reload в режиме разработчика.
+- `npm run start` — запускает сервер в режиме production.
+- `npm run dev` — запускает сервер с hot-reload в режиме разработчика.
