@@ -38,10 +38,8 @@ app.use(cors(
     allowedHeaders: ['Content-Type', 'Authorization'],
   },
 ));
-// app.options('*', cors());
 
 // Записываем в конфиг соль для шифрования пароля.
-// dotenv.config();
 const config = dotenv.config({
   path: path
     .resolve(process.env.NODE_ENV === 'production' ? '.env' : '.env.common'),

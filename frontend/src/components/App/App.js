@@ -217,6 +217,7 @@ function App() {
     setCurrentUser({});
     setMovies([]);
     setSavedMovies([]);
+    setFilteredMovies([]);
     navigate("/signin");
     setLoggedIn(false);
   };
