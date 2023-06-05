@@ -24,11 +24,11 @@ Backend реализован на ExpressJS, MongoDB + Mongoose. Реализо�
 
 ### Публикация в интернете:
 
-IP: 62.84.117.255
+IP: 51.250.79.131
 
-[Frontend - https://serhio-diploma.nomoredomains.rocks/](https://serhio-diploma.nomoredomains.rocks/)
+[Frontend - https://serhio-diploma.nomoredomains.rocks/](https://diploma.api-skorolev.ru)
 
-[Backend - https://api.diploma-serhio.nomoredomains.club](https://api.diploma-serhio.nomoredomains.club)
+[Backend - https://api.diploma-serhio.nomoredomains.club](https://api-diploma.api-skorolev.ru)
 
 ### Запуск проекта
 
