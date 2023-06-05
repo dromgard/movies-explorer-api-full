@@ -26,9 +26,9 @@ Backend реализован на ExpressJS, MongoDB + Mongoose. Реализо�
 
 IP: 51.250.79.131
 
-[Frontend - https://serhio-diploma.nomoredomains.rocks/](https://diploma.api-skorolev.ru)
+[Frontend - https://diploma.api-skorolev.ru](https://diploma.api-skorolev.ru)
 
-[Backend - https://api.diploma-serhio.nomoredomains.club](https://api-diploma.api-skorolev.ru)
+[Backend - https://api-diploma.api-skorolev.ru](https://api-diploma.api-skorolev.ru)
 
 ### Запуск проекта
 
