@@ -84,7 +84,7 @@ class MainApi {
 // Создаем экземпляр класса подключения к серверу.
 export const mainApi = new MainApi({
   // baseUrl: "http://localhost:3001",
-  baseUrl: "https://api.diploma-serhio.nomoredomains.club",
+  baseUrl: "https://api-diploma.api-skorolev.ru",
   headers: {
     Authorization: "",
     "Content-Type": "application/json",
